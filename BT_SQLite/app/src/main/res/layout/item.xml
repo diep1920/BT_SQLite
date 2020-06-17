@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Van A"
+        android:textSize="20dp"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/text_dateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DoB: 1/1/1999"
+        android:textSize="15dp"
+        android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
